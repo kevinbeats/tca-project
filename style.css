@@ -1,0 +1,15 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/900317724486565918/961994890663854220/FF5A3D38-29A7-41A8-979D-343BFF990255.jpg);
+    background-size: cover;
+    background-position-y: 1500px;
+}
+
+img {
+    width: 600px;
+}
+
+li{
+    display: inline;
+    float: right;
+    margin: 10px;
+}

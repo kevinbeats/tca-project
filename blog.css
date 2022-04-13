@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    /* width: 500px; */
+    width: 100%;
+}
+
+.cards {
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card:hover{
+    transition: .5s ease;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1600px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
